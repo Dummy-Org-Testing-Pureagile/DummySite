@@ -197,7 +197,7 @@ export default function Home() {
           <div className="flex flex-col gap-4 text-xs text-[#b1b6c1]">{["Work", "Services", "Process", "About"].map((item) => <a key={item} href={`#${item.toLowerCase()}`} className="hover:text-[#f36b4f]">{item}</a>)}</div>
           <div className="flex flex-col gap-4 text-xs text-[#b1b6c1]"><a href="#">Instagram</a><a href="#">LinkedIn</a><a href="#">Dribbble</a><a href="mailto:hello@northstar.studio">Email</a></div>
         </div>
-        <div className={`${shell} flex justify-between border-t border-white/10 py-6 text-[9px] text-[#6f7788] max-[430px]:flex-col max-[430px]:gap-2`}><span>© 2026 Northstar Studio</span><span>Made with care and plenty of coffee.</span></div>
+        <div className={`${shell} flex justify-between border-t border-white/10 py-6 text-[9px] text-[#6f7788] max-[430px]:flex-col max-[430px]:gap-2`}><span>(c) 2026 Northstar Studio. All rights reserved.</span><span>Made with care and plenty of coffee.</span></div>
       </footer>
     </main>
   );
