@@ -1,1 +1,56 @@
 @import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+html.dark body {
+  background: #080d18;
+}
+
+html.dark [class~="bg-[#f7f5ef]"],
+html.dark [class~="bg-[#eae6dc]"],
+html.dark [class~="bg-[#f5f2eb]"],
+html.dark [class~="bg-[#fafafa]"],
+html.dark [class~="bg-[#f7f7f8]"],
+html.dark [class~="bg-[#f2f0ea]"],
+html.dark [class~="bg-[#e7e3d9]"],
+html.dark [class~="bg-white"] {
+  background-color: #111827;
+}
+
+html.dark [class~="text-[#17233c]"],
+html.dark [class~="text-[#30394d]"] {
+  color: #f7f5ef;
+}
+
+html.dark [class~="text-[#666b75]"],
+html.dark [class~="text-[#777b82]"],
+html.dark [class~="text-[#72767f]"],
+html.dark [class~="text-[#767982]"],
+html.dark [class~="text-[#656b76]"],
+html.dark [class~="text-[#969aa3]"],
+html.dark [class~="text-[#9a9da3]"],
+html.dark [class~="text-[#9c9fa5]"],
+html.dark [class~="text-[#858994]"],
+html.dark [class~="text-[#85818d]"] {
+  color: #b8c0cf;
+}
+
+html.dark [class~="border-[#17233c]"],
+html.dark [class~="border-[#17233c]/15"],
+html.dark [class~="border-[#17233c]/20"],
+html.dark [class~="border-[#eceef0]"],
+html.dark [class~="border-[#ddd8cc]"] {
+  border-color: rgb(255 255 255 / 0.16);
+}
+
+html.dark input::placeholder {
+  color: #7f8796;
+}
