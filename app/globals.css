@@ -51,6 +51,7 @@ html.dark [class~="border-[#ddd8cc]"] {
   border-color: rgb(255 255 255 / 0.16);
 }
 
-html.dark input::placeholder {
+html.dark input::placeholder,
+html.dark textarea::placeholder {
   color: #7f8796;
 }
