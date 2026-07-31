@@ -57,17 +57,17 @@ export default function Home() {
       <section id="top" className={`${shell} grid min-h-[650px] grid-cols-[1.03fr_.97fr] items-center gap-[50px] py-[68px] max-lg:grid-cols-1 max-lg:pt-11 max-lg:text-center max-md:min-h-0 max-md:py-[50px]`}>
         <div>
           <div className="mb-6 flex items-center gap-2.5 text-[11px] font-extrabold tracking-[2.3px] max-lg:justify-center">
-            <span className="h-0.5 w-7 bg-[#f36b4f]" /> Independent digital studio
+            <span className="h-0.5 w-7 bg-[#f36b4f]" /> AI-native product studio
           </div>
           <h1 className="max-w-[650px] text-[clamp(54px,5.5vw,83px)] leading-[.98] font-bold tracking-[-5px] max-lg:mx-auto max-md:text-[53px] max-md:tracking-[-3.5px] max-[430px]:text-[46px]">
-            We make ideas<br />impossible to <em className="font-serif font-normal text-[#f36b4f]">ignore.</em>
+            We design AI experiences<br />people actually <em className="font-serif font-normal text-[#f36b4f]">trust.</em>
           </h1>
           <p className="my-7 max-w-[560px] text-lg leading-[1.65] text-[#666b75] max-lg:mx-auto max-md:text-base">
-            Strategy, design, and technology for ambitious teams building what&apos;s next. Small senior team. Big, focused outcomes.
+            Human-centered strategy, product design, and intelligent systems for teams ready to turn AI from experiment into everyday advantage.
           </p>
           <div className="my-8 flex items-center gap-8 max-lg:justify-center max-md:flex-col max-md:gap-5">
-            <a href="#contact" className="flex items-center gap-2.5 rounded-full bg-[#17233c] px-6 py-4 text-sm font-bold text-white transition-transform hover:-translate-y-0.5">Build something great <ArrowUpRight /></a>
-            <a href="#work" className="border-b border-[#17233c] pb-1 text-sm font-bold">See our work <span className="ml-1 text-[#f36b4f]">↓</span></a>
+            <a href="#contact" className="flex items-center gap-2.5 rounded-full bg-[#17233c] px-6 py-4 text-sm font-bold text-white transition-transform hover:-translate-y-0.5">Design your AI strategy <ArrowUpRight /></a>
+            <a href="#work" className="border-b border-[#17233c] pb-1 text-sm font-bold">Explore AI work <span className="ml-1 text-[#f36b4f]">↓</span></a>
           </div>
           <div className="mt-11 flex items-center gap-4 max-lg:justify-center">
             <div className="flex" aria-hidden="true">
@@ -75,12 +75,12 @@ export default function Home() {
                 <span key={person} className={`grid size-[38px] place-items-center rounded-full border-[3px] border-[#f7f5ef] text-[9px] font-extrabold text-white ${index ? "-ml-2" : ""} ${index === 0 ? "bg-[#386265]" : index === 1 ? "bg-[#d4a383]" : "bg-[#c98274]"}`}>{person}</span>
               ))}
             </div>
-            <p className="text-left text-[11px] leading-normal text-[#777b82]"><strong className="text-xs text-[#17233c]">Trusted by 40+ teams</strong><br />from startup to scale-up</p>
+            <p className="text-left text-[11px] leading-normal text-[#777b82]"><strong className="text-xs text-[#17233c]">40+ AI pilots launched</strong><br />from prototype to production</p>
           </div>
         </div>
 
-        <div className="relative grid min-h-[500px] place-items-center max-lg:mt-5 max-md:-mx-20 max-md:-my-6 max-md:min-h-[390px] max-md:scale-[.74] max-[430px]:-mx-[120px] max-[430px]:-my-14 max-[430px]:scale-[.62]" aria-label="Product analytics dashboard illustration">
-          <div className="absolute size-[430px] rounded-full bg-[#f0ad92]" />
+        <div className="relative grid min-h-[500px] place-items-center max-lg:mt-5 max-md:-mx-20 max-md:-my-6 max-md:min-h-[390px] max-md:scale-[.74] max-[430px]:-mx-[120px] max-[430px]:-my-14 max-[430px]:scale-[.62]" aria-label="AI orchestration dashboard illustration">
+          <div className="absolute size-[430px] rounded-full bg-[radial-gradient(circle_at_35%_35%,#9be7ff,#8b5cf6_55%,#17233c)] opacity-90" />
           <div className="absolute h-[260px] w-[520px] rotate-[25deg] rounded-full border border-white/55" />
           <div className="absolute h-[530px] w-[300px] rotate-[55deg] rounded-full border border-white/55" />
           <div className="relative z-10 h-[355px] w-[490px] -rotate-2 overflow-hidden rounded-[13px] bg-white shadow-[0_28px_70px_rgba(36,42,61,.22)]">
@@ -89,11 +89,11 @@ export default function Home() {
               <div className="flex gap-1.5">{[1, 2, 3].map((dot) => <i key={dot} className="size-1.5 rounded-full bg-[#dfe1e5]" />)}</div>
             </div>
             <div className="grid h-[306px] grid-cols-[108px_1fr]">
-              <aside className="flex flex-col gap-[22px] bg-[#fafafa] px-[17px] py-[26px] text-[9px] text-[#9c9fa5]"><b className="text-[#f36b4f]">Overview</b><span>Analytics</span><span>Projects</span><span>Customers</span></aside>
+              <aside className="flex flex-col gap-[22px] bg-[#fafafa] px-[17px] py-[26px] text-[9px] text-[#9c9fa5]"><b className="text-[#f36b4f]">AI Core</b><span>Agents</span><span>Prompts</span><span>Signals</span></aside>
               <div className="p-[27px]">
                 <div className="flex items-end justify-between">
-                  <div className="flex flex-col"><small className="text-[7px] tracking-widest text-[#9a9da3]">THIS MONTH</small><strong className="mt-1 text-[25px] tracking-[-1px]">$84,280</strong></div>
-                  <b className="rounded-full bg-[#e8f6ee] px-2 py-1 text-[9px] text-[#35a16b]">+18.4%</b>
+                  <div className="flex flex-col"><small className="text-[7px] tracking-widest text-[#9a9da3]">MODEL HEALTH</small><strong className="mt-1 text-[25px] tracking-[-1px]">98.7%</strong></div>
+                  <b className="rounded-full bg-[#e8f6ee] px-2 py-1 text-[9px] text-[#35a16b]">Live</b>
                 </div>
                 <div className="relative mt-2.5 h-[150px] overflow-hidden bg-[linear-gradient(#eceef2_1px,transparent_1px)] bg-[size:100%_37px]">
                   <svg className="absolute inset-0 size-full" viewBox="0 0 400 145" preserveAspectRatio="none" aria-hidden="true">
@@ -104,7 +104,7 @@ export default function Home() {
                   </svg>
                 </div>
                 <div className="grid grid-cols-3 gap-2">
-                  {[["Conversion", "7.8%"], ["New clients", "1,204"], ["Avg. value", "$482"]].map(([label, value]) => (
+                  {[["Accuracy", "99.2%"], ["Tasks done", "12k"], ["Latency", "0.4s"]].map(([label, value]) => (
                     <div key={label} className="flex flex-col rounded-md bg-[#f7f7f8] p-2.5"><span className="text-[7px] text-[#969aa2]">{label}</span><strong className="mt-1 text-xs">{value}</strong></div>
                   ))}
                 </div>
@@ -112,10 +112,10 @@ export default function Home() {
             </div>
           </div>
           <div className="absolute top-[38px] right-[-8px] z-20 flex rotate-[4deg] items-center gap-2.5 rounded-[10px] bg-white px-4 py-3 shadow-[0_16px_35px_rgba(31,40,65,.18)]">
-            <span className="grid size-8 place-items-center rounded-full bg-[#e7f6ef] font-extrabold text-[#30a675]">↗</span><div className="flex flex-col"><small className="text-[7px] tracking-widest text-[#9a9da3]">GROWTH</small><strong className="text-xs">+32.6%</strong></div>
+            <span className="grid size-8 place-items-center rounded-full bg-[#e7f6ef] font-extrabold text-[#30a675]">⚡</span><div className="flex flex-col"><small className="text-[7px] tracking-widest text-[#9a9da3]">AUTONOMY</small><strong className="text-xs">24/7</strong></div>
           </div>
           <div className="absolute bottom-[42px] left-[-5px] z-20 flex -rotate-[4deg] items-center gap-2.5 rounded-[10px] bg-white px-4 py-3 shadow-[0_16px_35px_rgba(31,40,65,.18)]">
-            <span className="grid size-8 place-items-center rounded-full bg-[#f36b4f] text-white"><Check /></span><div className="flex flex-col text-left"><strong className="text-xs">Milestone hit!</strong><small className="text-[7px] text-[#9a9da3]">10k active users</small></div>
+            <span className="grid size-8 place-items-center rounded-full bg-[#f36b4f] text-white"><Check /></span><div className="flex flex-col text-left"><strong className="text-xs">Guardrails on</strong><small className="text-[7px] text-[#9a9da3]">Human approved</small></div>
           </div>
         </div>
       </section>
