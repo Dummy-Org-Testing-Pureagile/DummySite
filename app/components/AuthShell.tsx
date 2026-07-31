@@ -1,6 +1,5 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
-import { ThemeToggle } from "./ThemeToggle";
 
 const Spark = () => (
   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
@@ -64,7 +63,6 @@ export function AuthShell({
             <Link href="/" className="inline-flex items-center gap-1 text-xs font-bold text-[#72767f] transition-colors hover:text-[#f36b4f]">
               <ArrowLeft /> Back to home
             </Link>
-            <ThemeToggle />
           </div>
           {children}
         </div>
