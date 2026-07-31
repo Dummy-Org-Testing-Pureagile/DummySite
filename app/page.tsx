@@ -189,7 +189,7 @@ export default function Home() {
         <a href="mailto:hello@northstar.studio" className="flex min-w-[190px] items-center justify-center gap-2.5 rounded-full bg-[#f36b4f] px-6 py-[18px] text-sm font-bold text-white transition-transform hover:-translate-y-0.5">Tell us about it <ArrowUpRight /></a>
       </section>
 
-      <footer className="bg-red-600 text-white">
+      <footer className="bg-[#1e1b4b] text-white">
         <div className={`${shell} grid grid-cols-[1.6fr_1fr_1fr_1fr] gap-9 py-[70px] max-lg:grid-cols-2 max-md:gap-y-10`}>
           <a href="#top" className="flex items-start gap-2 text-[22px] font-extrabold tracking-[-1px] max-md:col-span-2">
             <span className="grid size-[31px] place-items-center rounded-full bg-[#f36b4f] text-white"><Spark /></span>Northstar<span className="-ml-2 text-[#f36b4f]">.</span>
