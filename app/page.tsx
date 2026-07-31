@@ -1,5 +1,3 @@
-import { ThemeToggle } from "./components/ThemeToggle";
-
 const ArrowUpRight = ({ size = 18 }: { size?: number }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none" aria-hidden="true">
     <path d="M7 17 17 7M8 7h9v9" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -49,7 +47,6 @@ export default function Home() {
           ))}
         </nav>
         <div className="flex items-center gap-5 max-md:gap-3">
-          <ThemeToggle />
           <a href="/login" className="text-[13px] font-bold transition-colors hover:text-[#f36b4f]">Sign in</a>
           <a href="#contact" className="flex items-center gap-2 rounded-full border border-[#17233c] px-[18px] py-[11px] text-[13px] font-bold transition-transform hover:-translate-y-0.5 max-md:px-3 max-md:text-xs">
             <span className="max-md:hidden">Start a project</span><span className="hidden max-md:inline">Let&apos;s talk</span><ArrowUpRight size={16} />
