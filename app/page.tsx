@@ -57,17 +57,17 @@ export default function Home() {
       <section id="top" className={`${shell} grid min-h-[650px] grid-cols-[1.03fr_.97fr] items-center gap-[50px] py-[68px] max-lg:grid-cols-1 max-lg:pt-11 max-lg:text-center max-md:min-h-0 max-md:py-[50px]`}>
         <div>
           <div className="mb-6 flex items-center gap-2.5 text-[11px] font-extrabold tracking-[2.3px] max-lg:justify-center">
-            <span className="h-0.5 w-7 bg-[#f36b4f]" /> AI image studio
+            <span className="h-0.5 w-7 bg-[#f36b4f]" /> Robotics automation lab
           </div>
           <h1 className="max-w-[650px] text-[clamp(54px,5.5vw,83px)] leading-[.98] font-bold tracking-[-5px] max-lg:mx-auto max-md:text-[53px] max-md:tracking-[-3.5px] max-[430px]:text-[46px]">
-            Create AI images<br />from text that <em className="font-serif font-normal text-[#f36b4f]">converts.</em>
+            Deploy smarter robots<br />with AI that <em className="font-serif font-normal text-[#f36b4f]">performs.</em>
           </h1>
           <p className="my-7 max-w-[560px] text-lg leading-[1.65] text-[#666b75] max-lg:mx-auto max-md:text-base">
-            Turn prompts into polished campaign visuals, product concepts, and branded images with a creative AI workflow built for fast-moving teams.
+            Bring autonomous workflows, robotic vision, and intelligent automation together with a bold platform built for high-performing teams.
           </p>
           <div className="my-8 flex items-center gap-8 max-lg:justify-center max-md:flex-col max-md:gap-5">
-            <a href="#contact" className="flex items-center gap-2.5 rounded-full bg-[#17233c] px-6 py-4 text-sm font-bold text-white transition-transform hover:-translate-y-0.5">Generate your AI image <ArrowUpRight /></a>
-            <a href="#work" className="border-b border-[#17233c] pb-1 text-sm font-bold">Explore text-to-image work <span className="ml-1 text-[#f36b4f]">↓</span></a>
+            <a href="#contact" className="flex items-center gap-2.5 rounded-full bg-[#17233c] px-6 py-4 text-sm font-bold text-white transition-transform hover:-translate-y-0.5">Launch your robotics demo <ArrowUpRight /></a>
+            <a href="#work" className="border-b border-[#17233c] pb-1 text-sm font-bold">Explore robotic solutions <span className="ml-1 text-[#f36b4f]">↓</span></a>
           </div>
           <div className="mt-11 flex items-center gap-4 max-lg:justify-center">
             <div className="flex" aria-hidden="true">
@@ -75,16 +75,16 @@ export default function Home() {
                 <span key={person} className={`grid size-[38px] place-items-center rounded-full border-[3px] border-[#f7f5ef] text-[9px] font-extrabold text-white ${index ? "-ml-2" : ""} ${index === 0 ? "bg-[#386265]" : index === 1 ? "bg-[#d4a383]" : "bg-[#c98274]"}`}>{person}</span>
               ))}
             </div>
-            <p className="text-left text-[11px] leading-normal text-[#777b82]"><strong className="text-xs text-[#17233c]">25k+ AI visuals generated</strong><br />from prompts to campaigns</p>
+            <p className="text-left text-[11px] leading-normal text-[#777b82]"><strong className="text-xs text-[#17233c]">25k+ robotic tasks automated</strong><br />from prototypes to production</p>
           </div>
         </div>
 
-        <div className="relative grid min-h-[500px] place-items-center max-lg:mt-5 max-md:-mx-20 max-md:-my-6 max-md:min-h-[390px] max-md:scale-[.74] max-[430px]:-mx-[120px] max-[430px]:-my-14 max-[430px]:scale-[.62]" aria-label="AI-generated image hero banner">
+        <div className="relative grid min-h-[500px] place-items-center max-lg:mt-5 max-md:-mx-20 max-md:-my-6 max-md:min-h-[390px] max-md:scale-[.74] max-[430px]:-mx-[120px] max-[430px]:-my-14 max-[430px]:scale-[.62]" aria-label="Robotic automation hero banner">
           <div className="absolute size-[430px] rounded-full bg-[radial-gradient(circle_at_35%_35%,#9be7ff,#8b5cf6_55%,#17233c)] opacity-90" />
           <div className="absolute h-[260px] w-[520px] rotate-[25deg] rounded-full border border-white/55" />
           <div className="absolute h-[530px] w-[300px] rotate-[55deg] rounded-full border border-white/55" />
           <div className="relative z-10 h-[355px] w-[490px] -rotate-2 overflow-hidden rounded-[13px] bg-white bg-cover bg-center shadow-[0_28px_70px_rgba(36,42,61,.22)]"
-            style={{ backgroundImage: "linear-gradient(rgba(23,35,60,.08), rgba(23,35,60,.2)), url('https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80')" }}>
+            style={{ backgroundImage: "linear-gradient(rgba(23,35,60,.08), rgba(23,35,60,.2)), url('https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80')" }}>
             <div className="hidden h-[49px] items-center justify-between border-b border-[#eceef0] px-[18px]">
               <div className="grid size-[25px] place-items-center rounded-lg bg-[#f36b4f] text-sm text-white">🤖</div>
               <div className="flex gap-1.5">{[1, 2, 3].map((dot) => <i key={dot} className="size-1.5 rounded-full bg-[#dfe1e5]" />)}</div>
@@ -113,10 +113,10 @@ export default function Home() {
             </div>
           </div>
           <div className="absolute top-[38px] right-[-8px] z-20 flex rotate-[4deg] items-center gap-2.5 rounded-[10px] bg-white px-4 py-3 shadow-[0_16px_35px_rgba(31,40,65,.18)]">
-            <span className="grid size-8 place-items-center rounded-full bg-[#e7f6ef] font-extrabold text-[#30a675]">AI</span><div className="flex flex-col"><small className="text-[7px] tracking-widest text-[#9a9da3]">TEXT PROMPT</small><strong className="text-xs">Ready</strong></div>
+            <span className="grid size-8 place-items-center rounded-full bg-[#e7f6ef] font-extrabold text-[#30a675]">AI</span><div className="flex flex-col"><small className="text-[7px] tracking-widest text-[#9a9da3]">ROBOT VISION</small><strong className="text-xs">Ready</strong></div>
           </div>
           <div className="absolute bottom-[42px] left-[-5px] z-20 flex -rotate-[4deg] items-center gap-2.5 rounded-[10px] bg-white px-4 py-3 shadow-[0_16px_35px_rgba(31,40,65,.18)]">
-            <span className="grid size-8 place-items-center rounded-full bg-[#f36b4f] text-white"><Check /></span><div className="flex flex-col text-left"><strong className="text-xs">Brand-safe</strong><small className="text-[7px] text-[#9a9da3]">Campaign ready</small></div>
+            <span className="grid size-8 place-items-center rounded-full bg-[#f36b4f] text-white"><Check /></span><div className="flex flex-col text-left"><strong className="text-xs">Mission-ready</strong><small className="text-[7px] text-[#9a9da3]">Autonomous mode</small></div>
           </div>
         </div>
       </section>
