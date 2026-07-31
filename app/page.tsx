@@ -44,7 +44,7 @@ export default function Home() {
           Northstar<span className="-ml-2 text-[#f36b4f]">.</span>
         </a>
         <nav className="flex items-center gap-9 text-sm font-semibold max-lg:hidden" aria-label="Main navigation">
-          {["Work", "Services", "Process", "About"].map((item) => (
+          {["Work", "Services", "Process", "About", "Contact"].map((item) => (
             <a key={item} href={`#${item.toLowerCase()}`} className="transition-colors hover:text-[#f36b4f]">{item}</a>
           ))}
         </nav>
@@ -187,9 +187,30 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="contact" className={`${shell} flex min-h-[380px] items-center justify-between gap-10 max-md:min-h-0 max-md:flex-col max-md:items-start max-md:py-[75px]`}>
-        <div><span className={kicker}>HAVE A PROJECT IN MIND?</span><h2 className={heading}>Let&apos;s make something<br /><em className="font-serif font-normal text-[#f36b4f]">remarkable.</em></h2></div>
-        <a href="mailto:hello@northstar.studio" className="flex min-w-[190px] items-center justify-center gap-2.5 rounded-full bg-[#f36b4f] px-6 py-[18px] text-sm font-bold text-white transition-transform hover:-translate-y-0.5">Tell us about it <ArrowUpRight /></a>
+      <section id="contact" className={`${shell} grid min-h-[520px] grid-cols-[.9fr_1.1fr] items-center gap-12 py-[90px] max-md:min-h-0 max-md:grid-cols-1 max-md:py-[75px]`}>
+        <div>
+          <span className={kicker}>CONTACT US</span>
+          <h2 className={heading}>Let&apos;s make something<br /><em className="font-serif font-normal text-[#f36b4f]">remarkable.</em></h2>
+          <p className="mt-6 max-w-[420px] leading-relaxed text-[#72767f]">Share a few details and we&apos;ll get back to you with next steps for your robotics project.</p>
+          <a href="mailto:hello@northstar.studio" className="mt-6 inline-flex items-center gap-2 text-sm font-bold text-[#f36b4f]">Email us directly <ArrowUpRight size={16} /></a>
+        </div>
+        <form action="mailto:hello@northstar.studio" method="post" encType="text/plain" className="rounded-[28px] bg-white p-8 shadow-[0_24px_70px_rgba(36,42,61,.12)] max-md:w-full max-md:p-5">
+          <div className="grid grid-cols-2 gap-4 max-md:grid-cols-1">
+            <label className="flex flex-col gap-2 text-xs font-bold text-[#17233c]">
+              Name
+              <input name="name" required placeholder="Your name" className="rounded-2xl border border-[#17233c]/15 bg-[#f7f5ef] px-4 py-3 text-sm font-normal outline-none transition-colors focus:border-[#f36b4f]" />
+            </label>
+            <label className="flex flex-col gap-2 text-xs font-bold text-[#17233c]">
+              Email
+              <input name="email" type="email" required placeholder="you@example.com" className="rounded-2xl border border-[#17233c]/15 bg-[#f7f5ef] px-4 py-3 text-sm font-normal outline-none transition-colors focus:border-[#f36b4f]" />
+            </label>
+          </div>
+          <label className="mt-4 flex flex-col gap-2 text-xs font-bold text-[#17233c]">
+            Project details
+            <textarea name="message" required rows={5} placeholder="Tell us what you want to build" className="resize-none rounded-2xl border border-[#17233c]/15 bg-[#f7f5ef] px-4 py-3 text-sm font-normal outline-none transition-colors focus:border-[#f36b4f]" />
+          </label>
+          <button type="submit" className="mt-6 flex w-full items-center justify-center gap-2.5 rounded-full bg-[#f36b4f] px-6 py-[18px] text-sm font-bold text-white transition-transform hover:-translate-y-0.5">Send message <ArrowUpRight /></button>
+        </form>
       </section>
 
       <footer className="bg-[#1e1b4b] text-white">
