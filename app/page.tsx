@@ -189,13 +189,19 @@ export default function Home() {
       </section>
 
       <footer className="bg-[#111a2e] text-white">
-        <div className={`${shell} grid grid-cols-[2fr_1.3fr_.8fr_.8fr] gap-9 py-[70px] max-lg:grid-cols-[1.6fr_1fr_1fr] max-md:grid-cols-2`}>
-          <a href="#top" className="flex items-start gap-2 text-[22px] font-extrabold tracking-[-1px] max-md:col-span-2 max-md:mb-5">
+        <div className={`${shell} grid grid-cols-[1.6fr_1fr_1fr_1fr] gap-9 py-[70px] max-lg:grid-cols-2 max-md:gap-y-10`}>
+          <a href="#top" className="flex items-start gap-2 text-[22px] font-extrabold tracking-[-1px] max-md:col-span-2">
             <span className="grid size-[31px] place-items-center rounded-full bg-[#f36b4f] text-white"><Spark /></span>Northstar<span className="-ml-2 text-[#f36b4f]">.</span>
           </a>
-          <p className="m-0 font-serif text-[22px] leading-snug text-[#a5abba] max-lg:hidden">Small studio.<br />Big energy.</p>
-          <div className="flex flex-col gap-4 text-xs text-[#b1b6c1]">{["Work", "Services", "Process", "About"].map((item) => <a key={item} href={`#${item.toLowerCase()}`} className="hover:text-[#f36b4f]">{item}</a>)}</div>
-          <div className="flex flex-col gap-4 text-xs text-[#b1b6c1]"><a href="#">Instagram</a><a href="#">LinkedIn</a><a href="#">Dribbble</a><a href="mailto:hello@northstar.studio">Email</a></div>
+          <p className="m-0 max-w-[240px] font-serif text-[22px] leading-snug text-[#a5abba] max-lg:hidden">Small studio.<br />Big energy.</p>
+          <div className="flex flex-col gap-4 text-xs text-[#b1b6c1]">
+            <span className="mb-1 text-[9px] font-bold tracking-[2px] text-[#6f7788] uppercase">Explore</span>
+            {["Work", "Services", "Process", "About"].map((item) => <a key={item} href={`#${item.toLowerCase()}`} className="hover:text-[#f36b4f]">{item}</a>)}
+          </div>
+          <div className="flex flex-col gap-4 text-xs text-[#b1b6c1]">
+            <span className="mb-1 text-[9px] font-bold tracking-[2px] text-[#6f7788] uppercase">Connect</span>
+            <a href="#">Instagram</a><a href="#">LinkedIn</a><a href="#">Dribbble</a><a href="mailto:hello@northstar.studio">Email</a>
+          </div>
         </div>
         <div className={`${shell} flex justify-between border-t border-white/10 py-6 text-[9px] text-[#6f7788] max-[430px]:flex-col max-[430px]:gap-2`}><span>(c) 2026 Northstar Studio. All rights reserved.</span><span>Made with care and plenty of coffee.</span></div>
       </footer>
