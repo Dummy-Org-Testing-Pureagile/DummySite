@@ -60,7 +60,7 @@ export default function Home() {
             <span className="h-0.5 w-7 bg-[#f36b4f]" /> Robotics automation lab
           </div>
           <h1 className="max-w-[650px] text-[clamp(54px,5.5vw,83px)] leading-[.98] font-bold tracking-[-5px] max-lg:mx-auto max-md:text-[53px] max-md:tracking-[-3.5px] max-[430px]:text-[46px]">
-            Deploy smarter robots<br />with AI that <em className="font-serif font-normal text-[#f36b4f]">performs.</em>
+            Build bold ideas<br />with AI that <em className="font-serif font-normal text-[#f36b4f]">inspires.</em>
           </h1>
           <p className="my-7 max-w-[560px] text-lg leading-[1.65] text-[#666b75] max-lg:mx-auto max-md:text-base">
             Bring autonomous workflows, robotic vision, and intelligent automation together with a bold platform built for high-performing teams.
