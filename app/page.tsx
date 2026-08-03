@@ -84,7 +84,7 @@ export default function Home() {
           <div className="absolute h-[260px] w-[520px] rotate-[25deg] rounded-full border border-white/55" />
           <div className="absolute h-[530px] w-[300px] rotate-[55deg] rounded-full border border-white/55" />
           <div className="relative z-10 h-[355px] w-[490px] -rotate-2 overflow-hidden rounded-[13px] bg-white bg-cover bg-center shadow-[0_28px_70px_rgba(36,42,61,.22)]"
-            style={{ backgroundImage: "linear-gradient(rgba(23,35,60,.18), rgba(23,35,60,.56)), url('https://images.unsplash.com/photo-1516192518150-0d8fee5425e3?auto=format&fit=crop&w=1200&q=80')" }}>
+            style={{ backgroundImage: "linear-gradient(rgba(23,35,60,.18), rgba(23,35,60,.56)), url('https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80')" }}>
             <div className="hidden h-[49px] items-center justify-between border-b border-[#eceef0] px-[18px]">
               <div className="grid size-[25px] place-items-center rounded-lg bg-[#f36b4f] text-sm text-white">🤖</div>
               <div className="flex gap-1.5">{[1, 2, 3].map((dot) => <i key={dot} className="size-1.5 rounded-full bg-[#dfe1e5]" />)}</div>
