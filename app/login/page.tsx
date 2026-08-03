@@ -48,7 +48,7 @@ export default function LoginPage() {
       <Divider />
 
       <button type="button" className="flex h-[52px] w-full items-center justify-center gap-3 rounded-full border border-[#17233c]/15 bg-white text-sm font-bold transition hover:border-[#17233c]/30 hover:bg-[#f2f0ea]">
-        <GoogleIcon /> Continue with Google
+        <GoogleIcon /> Continue with Google and github
       </button>
 
       <p className="mt-8 text-center text-sm text-[#72767f]">
