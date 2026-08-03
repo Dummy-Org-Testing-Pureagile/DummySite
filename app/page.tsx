@@ -80,11 +80,11 @@ export default function Home() {
         </div>
 
         <div className="relative grid min-h-[500px] place-items-center max-lg:mt-5 max-md:-mx-20 max-md:-my-6 max-md:min-h-[390px] max-md:scale-[.74] max-[430px]:-mx-[120px] max-[430px]:-my-14 max-[430px]:scale-[.62]" aria-label="Robotic automation hero banner">
-          <div className="absolute size-[430px] rounded-full bg-[radial-gradient(circle_at_35%_35%,#9be7ff,#8b5cf6_55%,#17233c)] opacity-90" />
+          <div className="absolute size-[430px] rounded-full bg-[radial-gradient(circle_at_35%_35%,#f36b4f,#9b4f67_52%,#17233c)] opacity-90" />
           <div className="absolute h-[260px] w-[520px] rotate-[25deg] rounded-full border border-white/55" />
           <div className="absolute h-[530px] w-[300px] rotate-[55deg] rounded-full border border-white/55" />
           <div className="relative z-10 h-[355px] w-[490px] -rotate-2 overflow-hidden rounded-[13px] bg-white bg-cover bg-center shadow-[0_28px_70px_rgba(36,42,61,.22)]"
-            style={{ backgroundImage: "linear-gradient(rgba(23,35,60,.08), rgba(23,35,60,.2)), url('https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80')" }}>
+            style={{ backgroundImage: "linear-gradient(rgba(23,35,60,.18), rgba(23,35,60,.56)), url('https://images.unsplash.com/photo-1516192518150-0d8fee5425e3?auto=format&fit=crop&w=1200&q=80')" }}>
             <div className="hidden h-[49px] items-center justify-between border-b border-[#eceef0] px-[18px]">
               <div className="grid size-[25px] place-items-center rounded-lg bg-[#f36b4f] text-sm text-white">🤖</div>
               <div className="flex gap-1.5">{[1, 2, 3].map((dot) => <i key={dot} className="size-1.5 rounded-full bg-[#dfe1e5]" />)}</div>
