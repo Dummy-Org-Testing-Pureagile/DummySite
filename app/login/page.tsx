@@ -28,7 +28,7 @@ export default function LoginPage() {
 
       <form className="space-y-5">
         <label className={labelClass}>
-          Email address
+          Email addres
           <input className={inputClass} type="email" name="email" placeholder="you@company.com" autoComplete="email" required />
         </label>
         <label className={labelClass}>
