@@ -61,7 +61,7 @@ export function AuthShell({
         <div className="w-full max-w-[470px]">
           <div className="mb-10 flex items-center justify-between gap-4">
             <Link href="/" className="inline-flex items-center gap-1 text-xs font-bold text-[#72767f] transition-colors hover:text-[#f36b4f]">
-              <ArrowLeft /> Back to home
+              <ArrowLeft /> return  to home
             </Link>
           </div>
           {children}
