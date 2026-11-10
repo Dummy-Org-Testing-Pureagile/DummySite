@@ -22,7 +22,7 @@ export default function LoginPage() {
       description="Sign in to manage your projects, review progress, and keep creating remarkable things with us."
     >
       <div className="mb-8">
-        <h2 className="text-[34px] font-bold tracking-[-1.5px]">Sign Inn</h2>
+        <h2 className="text-[34px] font-bold tracking-[-1.5px]">Sign In</h2>
         <p className="mt-2 text-sm text-[#72767f]">Enter your details to access your account.</p>
       </div>
 
